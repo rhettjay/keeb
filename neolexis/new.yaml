@@ -383,7 +383,7 @@ pcbs:
             ref: matrix_four_num
             shift: [-8.7, 5.5]
         params: &textParams
-            text: Caldera
+            text: 63L03N
             justify: left
             h_size: 3.0
             v_size: 3.0
