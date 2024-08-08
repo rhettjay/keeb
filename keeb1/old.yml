@@ -1,7 +1,10 @@
 units:
-  px: cx + 2
-  py: cy + 2
-
+  # Proxy spacing variables
+  kx: cx
+  ky: cy
+  # Padding variables
+  px: kx + 2
+  py: ky + 2
 
   pushX: (cx / 2)
   pushY: (cy / 2)
@@ -24,6 +27,7 @@ points:
     matrix:
       columns:
         one:
+          rows.bottom.skip: true
           key.column_net: P020
         two:
           key.stagger: 0
@@ -383,7 +387,7 @@ pcbs:
             ref: matrix_four_num
             shift: [-8.7, 5.5]
         params: &textParams
-            text: Caldera
+            text: neolexis
             justify: left
             h_size: 3.0
             v_size: 3.0

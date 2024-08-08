@@ -1,44 +1,27 @@
 units:
-# Variables for padding
+  # Proxy spacing variables
   kx: cx
   ky: cy
-# Variables for spacing
+  # Padding variables
   px: kx + 2
   py: ky + 2
 
-  padding: 4
-  pad: 2
-  spacing: 0.75
-
-  controllerW: 18.5
-  controllerH: 33.5
-  belowControllerH: 17
-  caseBorder: 1.5
-  screwThreadRadius: 0.5
-  screwPCBRadius: 4.0
 points:
   zones:
     matrix:
       columns:
         one:
-          key.column_net: P020
           rows.bottom.skip: true
         two:
           key.stagger: 0
-          key.column_net: P022
         three:
           key.stagger: 5
-          key.column_net: P024
         four:
           key.stagger: 0
-          key.column_net: P100
         five:
           key.stagger: 0
-          key.column_net: P011
         six:
-          key.stagger: -5
-          key.column_net: P017
-          rows.bottom.skip: true
+          key.stagger: 0
       rows:
         bottom:
           row_net: P113
@@ -50,195 +33,194 @@ points:
           row_net: P029
         mod:
           row_net: P031
-    thumbs:
+    thumb_col_a:
+      key.spread: 25
       key.row_net: P115
       anchor:
         ref: matrix_six_bottom
-        shift: [35, -15]
+        rotate: 75
+        shift: [17, -30]
       columns:
-        layer:
+        near: 
           key.column_net: P009
-          key.shift: [-5, 0]
-          key.splay: 75
-          rows.bottom.width: 1.5kx
-          rows.home.width: 1.25kx
-          rows.home.shift: [2, 0]
-        space:
+        home: 
           key.column_net: P010
-      rows:
-        bottom:
-          row_net: P009
-        home:
-          row_net: P010
+    thumb_col_b:
+      key.spread: 25
+      key.row_net: P002
+      anchor:
+        ref: matrix_six_bottom
+        rotate: 75
+        shift: [37, -35]
+      columns:
+        far:
+          key.column_net: P009
+        mod:
+          key.column_net: P010
   mirror:
       ref: matrix_six_num
-      distance: 120
+      distance: 60
 outlines:
-  raw:
-    - what: rectangle
-      where: true
-      bound: true
-      size: [px, py]
   keys:
     - what: rectangle
       where: true
-      size: [kx-0.5, ky-0.5]
-      bound: false
+      size: [14, 14]
+      fillet: 0
   board_left:
     - what: polygon
       operation: stack
       fillet: 2
       points:
         - ref: matrix_one_num
-          shift: [-px, py]
+          shift: [-padX, padY]
         - ref: matrix_two_num
-          shift: [pushX - pad, py]
+          shift: [pushX - pad, padY]
         - ref: matrix_three_num
-          shift: [-pushX - pad, py]
+          shift: [-pushX - pad, padY]
         - ref: matrix_three_num
-          shift: [pushX - pad, py]
+          shift: [pushX - pad, padY]
         - ref: matrix_four_num
-          shift: [-pushX - pad, py]
+          shift: [-pushX - pad, padY]
         - ref: matrix_four_num
-          shift: [px, py]
+          shift: [padX, padY]
         - ref: matrix_five_num
-          shift: [-pushX + pad, py]
+          shift: [-pushX + pad, padY]
         - ref: matrix_five_num
-          shift: [px, py]
+          shift: [padX, padY]
         - ref: matrix_six_num
           # Won't fillet unless small num added. Bug?
-          shift: [-pushX + pad + 0.0001, py]
+          shift: [-pushX + pad + 0.0001, padY]
         - ref: matrix_six_num
-          shift: [px, py]
+          shift: [padX, padY]
         # Bottom
         - ref: matrix_six_mod
-          shift: [px, -py]
+          shift: [padX, -padY]
         - ref: matrix_six_mod
-          shift: [-pushX, -py]
+          shift: [-pushX, -padY]
         - ref: matrix_five_mod
-          shift: [pushX - pad, -py]
+          shift: [pushX - pad, -padY]
         - ref: matrix_five_mod
-          shift: [-px, -py]
+          shift: [-padX, -padY]
         - ref: matrix_four_mod
-          shift: [pushX - pad, -py]
+          shift: [pushX - pad, -padY]
         - ref: matrix_four_mod
-          shift: [-pushX + pad, -py]
+          shift: [-pushX + pad, -padY]
         - ref: matrix_three_mod
-          shift: [pushX + pad, -py]
+          shift: [pushX + pad, -padY]
         - ref: matrix_three_mod
-          shift: [-pushX + pad, -py]
+          shift: [-pushX + pad, -padY]
         - ref: matrix_two_mod
-          shift: [pushX + pad, -py]
+          shift: [pushX + pad, -padY]
         - ref: matrix_two_mod
-          shift: [-pushX + pad, -py]
+          shift: [-pushX + pad, -padY]
         - ref: matrix_one_mod
-          shift: [-px, -py]
+          shift: [-padX, -padY]
         - ref: matrix_one_num
-          shift: [-px, -py]
+          shift: [-padX, -padY]
   board_right:
     - what: polygon
       operation: stack
       fillet: 2
       points:
         - ref: mirror_matrix_one_num
-          shift: [-px, py]
+          shift: [-padX, padY]
         - ref: mirror_matrix_two_num
-          shift: [pushX - pad, py]
+          shift: [pushX - pad, padY]
         - ref: mirror_matrix_three_num
-          shift: [-pushX - pad, py]
+          shift: [-pushX - pad, padY]
         - ref: mirror_matrix_three_num
-          shift: [pushX - pad, py]
+          shift: [pushX - pad, padY]
         - ref: mirror_matrix_four_num
-          shift: [-pushX - pad, py]
+          shift: [-pushX - pad, padY]
         - ref: mirror_matrix_four_num
-          shift: [px, py]
+          shift: [padX, padY]
         - ref: mirror_matrix_five_num
-          shift: [-pushX + pad, py]
+          shift: [-pushX + pad, padY]
         - ref: mirror_matrix_five_num
-          shift: [px, py]
+          shift: [padX, padY]
         - ref: mirror_matrix_six_num
           # Won't fillet unless small num added. Bug?
-          shift: [-pushX + pad + 0.0001, py]
+          shift: [-pushX + pad + 0.0001, padY]
         - ref: mirror_matrix_six_num
-          shift: [px, py]
+          shift: [padX, padY]
         # Bottom
         - ref: mirror_matrix_six_mod
-          shift: [px, -py]
+          shift: [padX, -padY]
         - ref: mirror_matrix_six_mod
-          shift: [-pushX, -py]
+          shift: [-pushX, -padY]
         - ref: mirror_matrix_five_mod
-          shift: [pushX - pad, -py]
+          shift: [pushX - pad, -padY]
         - ref: mirror_matrix_five_mod
-          shift: [-px, -py]
+          shift: [-padX, -padY]
         - ref: mirror_matrix_four_mod
-          shift: [pushX - pad, -py]
+          shift: [pushX - pad, -padY]
         - ref: mirror_matrix_four_mod
-          shift: [-pushX + pad, -py]
+          shift: [-pushX + pad, -padY]
         - ref: mirror_matrix_three_mod
-          shift: [pushX + pad, -py]
+          shift: [pushX + pad, -padY]
         - ref: mirror_matrix_three_mod
-          shift: [-pushX + pad, -py]
+          shift: [-pushX + pad, -padY]
         - ref: mirror_matrix_two_mod
-          shift: [pushX + pad, -py]
+          shift: [pushX + pad, -padY]
         - ref: mirror_matrix_two_mod
-          shift: [-pushX + pad, -py]
+          shift: [-pushX + pad, -padY]
         - ref: mirror_matrix_one_mod
-          shift: [-px, -py]
+          shift: [-padX, -padY]
         - ref: mirror_matrix_one_num
-          shift: [-px, -py]
+          shift: [-padX, -padY]
   xl_board_left:
     - what: polygon
       operation: stack
       points:
         # Top
         - ref: matrix_one_num
-          shift: [-px - caseBorder, py + caseBorder]
+          shift: [-padX - caseBorder, padY + caseBorder]
         - ref: matrix_two_num
-          shift: [pushX - pad - caseBorder, py + caseBorder]
+          shift: [pushX - pad - caseBorder, padY + caseBorder]
         - ref: matrix_three_num
-          shift: [-pushX - pad - caseBorder, py + caseBorder]
+          shift: [-pushX - pad - caseBorder, padY + caseBorder]
         - ref: matrix_three_num
-          shift: [pushX - pad - caseBorder, py + caseBorder]
+          shift: [pushX - pad - caseBorder, padY + caseBorder]
         - ref: matrix_four_num
-          shift: [-pushX - pad - caseBorder, py + caseBorder]
+          shift: [-pushX - pad - caseBorder, padY + caseBorder]
         - ref: matrix_four_num
-          shift: [px + caseBorder, py + caseBorder]
+          shift: [padX + caseBorder, padY + caseBorder]
         - ref: matrix_five_num
-          shift: [-pushX + pad + caseBorder, py + caseBorder]
+          shift: [-pushX + pad + caseBorder, padY + caseBorder]
         - ref: matrix_five_num
-          shift: [px + caseBorder, py + caseBorder]
+          shift: [padX + caseBorder, padY + caseBorder]
         - ref: matrix_six_num
           # Won't fillet unless small num added. Bug?
-          shift: [-pushX + pad + 0.0001 + caseBorder, py + caseBorder]
+          shift: [-pushX + pad + 0.0001 + caseBorder, padY + caseBorder]
         - ref: matrix_six_num
-          shift: [px + caseBorder, py + caseBorder]
+          shift: [padX + caseBorder, padY + caseBorder]
         # Bottom
         - ref: matrix_six_mod
-          shift: [px + caseBorder, -py - caseBorder]
+          shift: [padX + caseBorder, -padY - caseBorder]
         - ref: matrix_six_mod
-          shift: [-pushX - caseBorder, -py - caseBorder]
+          shift: [-pushX - caseBorder, -padY - caseBorder]
         - ref: matrix_five_mod
-          shift: [pushX - pad - caseBorder, -py - caseBorder]
+          shift: [pushX - pad - caseBorder, -padY - caseBorder]
         - ref: matrix_five_mod
-          shift: [-px - caseBorder, -py - caseBorder]
+          shift: [-padX - caseBorder, -padY - caseBorder]
         - ref: matrix_four_mod
-          shift: [pushX - pad - caseBorder, -py - caseBorder]
+          shift: [pushX - pad - caseBorder, -padY - caseBorder]
         - ref: matrix_four_mod
-          shift: [-pushX + pad + caseBorder, -py - caseBorder]
+          shift: [-pushX + pad + caseBorder, -padY - caseBorder]
         - ref: matrix_three_mod
-          shift: [pushX + pad + caseBorder, -py - caseBorder]
+          shift: [pushX + pad + caseBorder, -padY - caseBorder]
         - ref: matrix_three_mod
-          shift: [-pushX + pad + caseBorder, -py - caseBorder]
+          shift: [-pushX + pad + caseBorder, -padY - caseBorder]
         - ref: matrix_two_mod
-          shift: [pushX + pad + caseBorder, -py - caseBorder]
+          shift: [pushX + pad + caseBorder, -padY - caseBorder]
         - ref: matrix_two_mod
-          shift: [-pushX + pad + caseBorder, -py - caseBorder]
+          shift: [-pushX + pad + caseBorder, -padY - caseBorder]
         - ref: matrix_one_mod
-          shift: [-px - caseBorder, -py - caseBorder]
+          shift: [-padX - caseBorder, -padY - caseBorder]
 
         # Connect to top
         - ref: matrix_one_num
-          shift: [-px - caseBorder, -py]
+          shift: [-padX - caseBorder, -padY]
   xl_board_key_cutouts:
     - name: xl_board_left
     - operation: subtract
@@ -383,7 +365,7 @@ pcbs:
             ref: matrix_four_num
             shift: [-8.7, 5.5]
         params: &textParams
-            text: Caldera
+            text: neolexis
             justify: left
             h_size: 3.0
             v_size: 3.0
@@ -517,3 +499,4 @@ cases:
   plate:
     - name: xl_board_key_cutouts
       extrude: 1.2
+
