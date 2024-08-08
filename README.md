@@ -1,7 +1,7 @@
 # Custom Ergonomic Keyboards
 
-* [neolexis](./neolexis/README.md)
-* **_COMING SOON_**[blizten](./blizten)
+- [neolexis](./neolexis/README.md)
+- **_COMING SOON_** [blizten](./blizten)
 
 ## License
 &copy; Rhett Bulkley
