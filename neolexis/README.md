@@ -19,4 +19,7 @@
 
 ## WONT HAVE BUT WANT
 - [ ] IO expansion board w/ seed UC
-- [ ] zed firmware
+- [ ] zig firmware
+
+## TODO
+- [ ] Add matrix diagram of keys
