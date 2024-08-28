@@ -8,31 +8,28 @@ module.exports = {
   params: {
     designator: 'MCU',
     orientation: 'down',
-    RAW: { type: 'net', value: 'RAW' },
-    GND: { type: 'net', value: 'GND' },
-    RST: { type: 'net', value: 'RST' },
-    VCC: { type: 'net', value: 'VCC' },
-    P031: { type: 'net', value: 'P031' },
-    P029: { type: 'net', value: 'P029' },
-    P002: { type: 'net', value: 'P002' },
-    P115: { type: 'net', value: 'P115' },
-    P113: { type: 'net', value: 'P113' },
-    P111: { type: 'net', value: 'P111' },
-    P010: { type: 'net', value: 'P010' },
-    P009: { type: 'net', value: 'P009' },
-    P006: { type: 'net', value: 'P006' },
-    P008: { type: 'net', value: 'P008' },
-    P017: { type: 'net', value: 'P017' },
-    P020: { type: 'net', value: 'P020' },
-    P022: { type: 'net', value: 'P022' },
-    P024: { type: 'net', value: 'P024' },
-    P100: { type: 'net', value: 'P100' },
-    P011: { type: 'net', value: 'P011' },
-    P104: { type: 'net', value: 'P104' },
-    P106: { type: 'net', value: 'P106' },
-    P101: { type: 'net', value: 'P101' },
-    P102: { type: 'net', value: 'P102' },
-    P107: { type: 'net', value: 'P107' }
+    RAW: {type: 'net', value: 'RAW'},
+    GND: {type: 'net', value: 'GND'},
+    RST: {type: 'net', value: 'RST'},
+    VCC: {type: 'net', value: 'VCC'},
+    P031: {type: 'net', value: 'P031'},
+    P029: {type: 'net', value: 'P029'},
+    P002: {type: 'net', value: 'P002'},
+    P115: {type: 'net', value: 'P115'},
+    P113: {type: 'net', value: 'P113'},
+    P111: {type: 'net', value: 'P111'},
+    P010: {type: 'net', value: 'P010'},
+    P009: {type: 'net', value: 'P009'},
+    P006: {type: 'net', value: 'P006'},
+    P008: {type: 'net', value: 'P008'},
+    P017: {type: 'net', value: 'P017'},
+    P020: {type: 'net', value: 'P020'},
+    P022: {type: 'net', value: 'P022'},
+    P024: {type: 'net', value: 'P024'},
+    P100: {type: 'net', value: 'P100'},
+    P011: {type: 'net', value: 'P011'},
+    P104: {type: 'net', value: 'P104'},
+    P106: {type: 'net', value: 'P106'}
   },
   body: p => {
     const standard = `
@@ -137,22 +134,18 @@ module.exports = {
         (pad 22 thru_hole circle (at -8.89 ${def_pos}7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) ${p.RST.str})
         (pad 23 thru_hole circle (at -11.43 ${def_pos}7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) ${p.GND.str})
         (pad 24 thru_hole circle (at -13.97 ${def_pos}7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) ${p.RAW.str})
-
-        (pad 31 thru_hole circle (at 8.89 5.08) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) ${p.P101.str})
-        (pad 32 thru_hole circle (at 8.89 2.54) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) ${p.P102.str})
-        (pad 33 thru_hole circle (at 8.89 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) ${p.P107.str})
         `
-    }
-    if (p.orientation == 'down') {
-      return `
+      }
+      if(p.orientation == 'down') {
+        return `
           ${standard}
           ${pins('-', '')})
           `
-    } else {
-      return `
+      } else {
+        return `
           ${standard}
           ${pins('', '-')})
           `
+      }
     }
   }
-}
