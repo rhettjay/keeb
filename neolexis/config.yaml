@@ -267,7 +267,7 @@ pcbs:
       # Move a diode so it doesn't conflict with controller
       diode_weird1:
         what: diode
-        where: matrix_six_top
+        where: matrix_six_mod
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
@@ -354,7 +354,7 @@ pcbs:
       hole_bottom_left:
         what: mountinghole
         where:
-          ref: matrix_one_bottom
+          ref: matrix_one_home
           shift: [px, -py]
       hole_top_left:
         what: mountinghole
@@ -480,7 +480,7 @@ pcbs:
       hole_bottom_left:
         what: mountinghole
         where:
-          ref: mirror_matrix_one_bottom
+          ref: mirror_matrix_one_home
           shift: [px, -py]
       hole_top_left:
         what: mountinghole

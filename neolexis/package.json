@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ergogen . -o test -d",
-    "gen": "ergogen config.yaml -o output",
+    "gen": "ergogen . -o output",
     "genX": "ergogen $4 -o output"
   },
   "author": "",
