@@ -1,0 +1,6096 @@
+matrix_one_home:
+    x: 0
+    'y': 19
+    r: 0
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: one_home
+        name: matrix_one_home
+        column_net: P020
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                column_net: P020
+            rows:
+                bottom:
+                    skip: true
+            name: one
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_one_top:
+    x: 0
+    'y': 38
+    r: 0
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: one_top
+        name: matrix_one_top
+        column_net: P020
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                column_net: P020
+            rows:
+                bottom:
+                    skip: true
+            name: one
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_one_num:
+    x: 0
+    'y': 57
+    r: 0
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: one_num
+        name: matrix_one_num
+        column_net: P020
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                column_net: P020
+            rows:
+                bottom:
+                    skip: true
+            name: one
+        row: num
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_one_mod:
+    x: 0
+    'y': 76
+    r: 0
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: one_mod
+        name: matrix_one_mod
+        column_net: P020
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                column_net: P020
+            rows:
+                bottom:
+                    skip: true
+            name: one
+        row: mod
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_two_bottom:
+    x: 19
+    'y': 2
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: two_bottom
+        name: matrix_two_bottom
+        column_net: P022
+        row_net: P113
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_two_home:
+    x: 19
+    'y': 21
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: two_home
+        name: matrix_two_home
+        column_net: P022
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_two_top:
+    x: 19
+    'y': 40
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: two_top
+        name: matrix_two_top
+        column_net: P022
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_two_num:
+    x: 19
+    'y': 59
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: two_num
+        name: matrix_two_num
+        column_net: P022
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: num
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_two_mod:
+    x: 19
+    'y': 78
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: two_mod
+        name: matrix_two_mod
+        column_net: P022
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: mod
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_three_bottom:
+    x: 38
+    'y': 4
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: three_bottom
+        name: matrix_three_bottom
+        column_net: P024
+        row_net: P113
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+matrix_three_home:
+    x: 38
+    'y': 23
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: three_home
+        name: matrix_three_home
+        column_net: P024
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_three_top:
+    x: 38
+    'y': 42
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: three_top
+        name: matrix_three_top
+        column_net: P024
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_three_num:
+    x: 38
+    'y': 61
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: three_num
+        name: matrix_three_num
+        column_net: P024
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: num
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_three_mod:
+    x: 38
+    'y': 80
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: three_mod
+        name: matrix_three_mod
+        column_net: P024
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: mod
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_four_bottom:
+    x: 57
+    'y': 6
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: four_bottom
+        name: matrix_four_bottom
+        column_net: P100
+        row_net: P113
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+matrix_four_home:
+    x: 57
+    'y': 25
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: four_home
+        name: matrix_four_home
+        column_net: P100
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_four_top:
+    x: 57
+    'y': 44
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: four_top
+        name: matrix_four_top
+        column_net: P100
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_four_num:
+    x: 57
+    'y': 63
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: four_num
+        name: matrix_four_num
+        column_net: P100
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: num
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_four_mod:
+    x: 57
+    'y': 82
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: four_mod
+        name: matrix_four_mod
+        column_net: P100
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: mod
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_five_bottom:
+    x: 76
+    'y': 8
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: five_bottom
+        name: matrix_five_bottom
+        column_net: P011
+        row_net: P113
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+matrix_five_home:
+    x: 76
+    'y': 27
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: five_home
+        name: matrix_five_home
+        column_net: P011
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_five_top:
+    x: 76
+    'y': 46
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: five_top
+        name: matrix_five_top
+        column_net: P011
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_five_num:
+    x: 76
+    'y': 65
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: five_num
+        name: matrix_five_num
+        column_net: P011
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: num
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_five_mod:
+    x: 76
+    'y': 84
+    r: 0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: five_mod
+        name: matrix_five_mod
+        column_net: P011
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: mod
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+matrix_six_home:
+    x: 95
+    'y': 22
+    r: 0
+    meta:
+        stagger: -5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: six_home
+        name: matrix_six_home
+        column_net: P017
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: -5
+                column_net: P017
+            rows:
+                bottom:
+                    skip: true
+            name: six
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+matrix_six_top:
+    x: 95
+    'y': 41
+    r: 0
+    meta:
+        stagger: -5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: six_top
+        name: matrix_six_top
+        column_net: P017
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: -5
+                column_net: P017
+            rows:
+                bottom:
+                    skip: true
+            name: six
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_six_num:
+    x: 95
+    'y': 60
+    r: 0
+    meta:
+        stagger: -5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: six_num
+        name: matrix_six_num
+        column_net: P017
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: -5
+                column_net: P017
+            rows:
+                bottom:
+                    skip: true
+            name: six
+        row: num
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_six_mod:
+    x: 95
+    'y': 79
+    r: 0
+    meta:
+        stagger: -5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: six_mod
+        name: matrix_six_mod
+        column_net: P017
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: -5
+                column_net: P017
+            rows:
+                bottom:
+                    skip: true
+            name: six
+        row: mod
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+thumbs_layer_bottom:
+    x: 148
+    'y': -22
+    r: 75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 75
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: layer_bottom
+        name: thumbs_layer_bottom
+        row_net: P009
+        column_net: P009
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P009
+                splay: 75
+            rows:
+                home:
+                    width: 1.5kx
+                    shift:
+                        - -4.5
+                        - 0
+                in:
+                    width: 1.5kx
+            name: layer
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+thumbs_layer_home:
+    x: 128.48272359999999
+    'y': -21.4291043
+    r: 75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 75
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - -4.5
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 27
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: layer_home
+        name: thumbs_layer_home
+        row_net: P010
+        column_net: P009
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P009
+                splay: 75
+            rows:
+                home:
+                    width: 1.5kx
+                    shift:
+                        - -4.5
+                        - 0
+                in:
+                    width: 1.5kx
+            name: layer
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 10
+            - 0
+thumbs_layer_in:
+    x: 110.13013289999998
+    'y': -16.5115424
+    r: 75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 75
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 27
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: layer_in
+        name: thumbs_layer_in
+        row_net: P115
+        column_net: P009
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P009
+                splay: 75
+            rows:
+                home:
+                    width: 1.5kx
+                    shift:
+                        - -4.5
+                        - 0
+                in:
+                    width: 1.5kx
+            name: layer
+        row: in
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+thumbs_space_bottom:
+    x: 152.9175619
+    'y': -3.6474092999999996
+    r: 75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: space_bottom
+        name: thumbs_space_bottom
+        row_net: P009
+        column_net: P010
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P010
+            rows: {}
+            name: space
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+thumbs_space_home:
+    x: 134.5649712
+    'y': 1.2701526000000003
+    r: 75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: space_home
+        name: thumbs_space_home
+        row_net: P010
+        column_net: P010
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P010
+            rows: {}
+            name: space
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 10
+            - 0
+thumbs_space_in:
+    x: 116.2123805
+    'y': 6.1877145
+    r: 75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: space_in
+        name: thumbs_space_in
+        row_net: P115
+        column_net: P010
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P010
+            rows: {}
+            name: space
+        row: in
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_matrix_one_home:
+    x: 370
+    'y': 19
+    r: -0.0
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_one_home
+        name: mirror_matrix_one_home
+        column_net: P020
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                column_net: P020
+            rows:
+                bottom:
+                    skip: true
+            name: one
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+mirror_matrix_one_top:
+    x: 370
+    'y': 38
+    r: -0.0
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_one_top
+        name: mirror_matrix_one_top
+        column_net: P020
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                column_net: P020
+            rows:
+                bottom:
+                    skip: true
+            name: one
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+mirror_matrix_one_num:
+    x: 370
+    'y': 57
+    r: -0.0
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_one_num
+        name: mirror_matrix_one_num
+        column_net: P020
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                column_net: P020
+            rows:
+                bottom:
+                    skip: true
+            name: one
+        row: num
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+mirror_matrix_one_mod:
+    x: 370
+    'y': 76
+    r: -0.0
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_one_mod
+        name: mirror_matrix_one_mod
+        column_net: P020
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                column_net: P020
+            rows:
+                bottom:
+                    skip: true
+            name: one
+        row: mod
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_matrix_two_bottom:
+    x: 351
+    'y': 2
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_two_bottom
+        name: mirror_matrix_two_bottom
+        column_net: P022
+        row_net: P113
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_matrix_two_home:
+    x: 351
+    'y': 21
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_two_home
+        name: mirror_matrix_two_home
+        column_net: P022
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_two_top:
+    x: 351
+    'y': 40
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_two_top
+        name: mirror_matrix_two_top
+        column_net: P022
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_two_num:
+    x: 351
+    'y': 59
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_two_num
+        name: mirror_matrix_two_num
+        column_net: P022
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: num
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_two_mod:
+    x: 351
+    'y': 78
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_two_mod
+        name: mirror_matrix_two_mod
+        column_net: P022
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P022
+            rows: {}
+            name: two
+        row: mod
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_matrix_three_bottom:
+    x: 332
+    'y': 4
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_three_bottom
+        name: mirror_matrix_three_bottom
+        column_net: P024
+        row_net: P113
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+mirror_matrix_three_home:
+    x: 332
+    'y': 23
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_three_home
+        name: mirror_matrix_three_home
+        column_net: P024
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_three_top:
+    x: 332
+    'y': 42
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_three_top
+        name: mirror_matrix_three_top
+        column_net: P024
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_three_num:
+    x: 332
+    'y': 61
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_three_num
+        name: mirror_matrix_three_num
+        column_net: P024
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: num
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_three_mod:
+    x: 332
+    'y': 80
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_three_mod
+        name: mirror_matrix_three_mod
+        column_net: P024
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: three
+        row: mod
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_matrix_four_bottom:
+    x: 313
+    'y': 6
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_four_bottom
+        name: mirror_matrix_four_bottom
+        column_net: P100
+        row_net: P113
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+mirror_matrix_four_home:
+    x: 313
+    'y': 25
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_four_home
+        name: mirror_matrix_four_home
+        column_net: P100
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_four_top:
+    x: 313
+    'y': 44
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_four_top
+        name: mirror_matrix_four_top
+        column_net: P100
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_four_num:
+    x: 313
+    'y': 63
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_four_num
+        name: mirror_matrix_four_num
+        column_net: P100
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: num
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_four_mod:
+    x: 313
+    'y': 82
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_four_mod
+        name: mirror_matrix_four_mod
+        column_net: P100
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P100
+            rows: {}
+            name: four
+        row: mod
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_matrix_five_bottom:
+    x: 294
+    'y': 8
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_five_bottom
+        name: mirror_matrix_five_bottom
+        column_net: P011
+        row_net: P113
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+mirror_matrix_five_home:
+    x: 294
+    'y': 27
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_five_home
+        name: mirror_matrix_five_home
+        column_net: P011
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_five_top:
+    x: 294
+    'y': 46
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_five_top
+        name: mirror_matrix_five_top
+        column_net: P011
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_five_num:
+    x: 294
+    'y': 65
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_five_num
+        name: mirror_matrix_five_num
+        column_net: P011
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: num
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_five_mod:
+    x: 294
+    'y': 84
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_five_mod
+        name: mirror_matrix_five_mod
+        column_net: P011
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: 2
+                column_net: P011
+            rows: {}
+            name: five
+        row: mod
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_matrix_six_home:
+    x: 275
+    'y': 22
+    r: -0.0
+    meta:
+        stagger: -5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_six_home
+        name: mirror_matrix_six_home
+        column_net: P017
+        row_net: P115
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: -5
+                column_net: P017
+            rows:
+                bottom:
+                    skip: true
+            name: six
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+mirror_matrix_six_top:
+    x: 275
+    'y': 41
+    r: -0.0
+    meta:
+        stagger: -5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_six_top
+        name: mirror_matrix_six_top
+        column_net: P017
+        row_net: P002
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: -5
+                column_net: P017
+            rows:
+                bottom:
+                    skip: true
+            name: six
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+mirror_matrix_six_num:
+    x: 275
+    'y': 60
+    r: -0.0
+    meta:
+        stagger: -5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_six_num
+        name: mirror_matrix_six_num
+        column_net: P017
+        row_net: P029
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: -5
+                column_net: P017
+            rows:
+                bottom:
+                    skip: true
+            name: six
+        row: num
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+mirror_matrix_six_mod:
+    x: 275
+    'y': 79
+    r: -0.0
+    meta:
+        stagger: -5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_six_mod
+        name: mirror_matrix_six_mod
+        column_net: P017
+        row_net: P031
+        zone:
+            columns:
+                one:
+                    key:
+                        column_net: P020
+                    rows:
+                        bottom:
+                            skip: true
+                    name: one
+                two:
+                    key:
+                        stagger: 2
+                        column_net: P022
+                    rows: {}
+                    name: two
+                three:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: three
+                four:
+                    key:
+                        stagger: 2
+                        column_net: P100
+                    rows: {}
+                    name: four
+                five:
+                    key:
+                        stagger: 2
+                        column_net: P011
+                    rows: {}
+                    name: five
+                six:
+                    key:
+                        stagger: -5
+                        column_net: P017
+                    rows:
+                        bottom:
+                            skip: true
+                    name: six
+            rows:
+                bottom:
+                    row_net: P113
+                home:
+                    row_net: P115
+                top:
+                    row_net: P002
+                num:
+                    row_net: P029
+                mod:
+                    row_net: P031
+            name: matrix
+        col:
+            key:
+                stagger: -5
+                column_net: P017
+            rows:
+                bottom:
+                    skip: true
+            name: six
+        row: mod
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+mirror_thumbs_layer_bottom:
+    x: 222
+    'y': -22
+    r: -75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 75
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_layer_bottom
+        name: mirror_thumbs_layer_bottom
+        row_net: P009
+        column_net: P009
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P009
+                splay: 75
+            rows:
+                home:
+                    width: 1.5kx
+                    shift:
+                        - -4.5
+                        - 0
+                in:
+                    width: 1.5kx
+            name: layer
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_thumbs_layer_home:
+    x: 241.51727640000001
+    'y': -21.4291043
+    r: -75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 75
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - -4.5
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 27
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_layer_home
+        name: mirror_thumbs_layer_home
+        row_net: P010
+        column_net: P009
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P009
+                splay: 75
+            rows:
+                home:
+                    width: 1.5kx
+                    shift:
+                        - -4.5
+                        - 0
+                in:
+                    width: 1.5kx
+            name: layer
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 10
+            - 0
+mirror_thumbs_layer_in:
+    x: 259.8698671
+    'y': -16.5115424
+    r: -75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 75
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 27
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_layer_in
+        name: mirror_thumbs_layer_in
+        row_net: P115
+        column_net: P009
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P009
+                splay: 75
+            rows:
+                home:
+                    width: 1.5kx
+                    shift:
+                        - -4.5
+                        - 0
+                in:
+                    width: 1.5kx
+            name: layer
+        row: in
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_thumbs_space_bottom:
+    x: 217.0824381
+    'y': -3.6474092999999996
+    r: -75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_space_bottom
+        name: mirror_thumbs_space_bottom
+        row_net: P009
+        column_net: P010
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P010
+            rows: {}
+            name: space
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_thumbs_space_home:
+    x: 235.4350288
+    'y': 1.2701526000000003
+    r: -75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_space_home
+        name: mirror_thumbs_space_home
+        row_net: P010
+        column_net: P010
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P010
+            rows: {}
+            name: space
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 10
+            - 0
+mirror_thumbs_space_in:
+    x: 253.7876195
+    'y': 6.1877145
+    r: -75
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_space_in
+        name: mirror_thumbs_space_in
+        row_net: P115
+        column_net: P010
+        zone:
+            key:
+                row_net: P115
+            columns:
+                layer:
+                    key:
+                        column_net: P009
+                        splay: 75
+                    rows:
+                        home:
+                            width: 1.5kx
+                            shift:
+                                - -4.5
+                                - 0
+                        in:
+                            width: 1.5kx
+                    name: layer
+                space:
+                    key:
+                        column_net: P010
+                    rows: {}
+                    name: space
+            rows:
+                bottom:
+                    row_net: P009
+                home:
+                    row_net: P010
+                in: {}
+            name: thumbs
+        col:
+            key:
+                column_net: P010
+            rows: {}
+            name: space
+        row: in
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
