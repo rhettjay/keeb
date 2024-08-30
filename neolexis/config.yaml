@@ -53,8 +53,8 @@ points:
     thumbs:
       key.row_net: P115
       anchor:
-        ref: matrix_six_bottom
-        shift: [53, -25]
+        ref: matrix_six_home
+        shift: [56, -25]
       columns:
         layer:
           key.column_net: P009
@@ -200,9 +200,9 @@ outlines:
         - ref: matrix_six_mod
           shift: [px + caseBorder, py + caseBorder]
         - ref: matrix_six_num
-          shift: [px + caseBorder, py + caseBorder]
+          shift: [px + caseBorder , py + caseBorder]
         - ref: matrix_six_home
-          shift: [px + caseBorder, py + caseBorder]
+          shift: [px + caseBorder , py + caseBorder]
         - ref: matrix_five_bottom
           shift: [2px + caseBorder, py + caseBorder]
         - ref: thumbs_space_bottom
@@ -217,7 +217,7 @@ outlines:
           shift: [-1px + caseBorder, -2py - caseBorder]
         # Bottom
         - ref: matrix_five_bottom
-          shift: [px, -2py]
+          shift: [px,-2py]
         - ref: matrix_four_bottom
           shift: [px + caseBorder, -py - caseBorder]
         - ref: matrix_three_bottom
@@ -240,9 +240,9 @@ outlines:
       name: keys
 pcbs:
   left:
-    outlines:
-      main:
-        outline: board_left
+  outlines:
+    main:
+      outline: board_left
     footprints:
       choc_hotswap:
         what: choc
@@ -267,7 +267,7 @@ pcbs:
       # Move a diode so it doesn't conflict with controller
       diode_weird1:
         what: diode
-        where: matrix_six_mod
+        where: matrix_six_top
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
@@ -354,7 +354,7 @@ pcbs:
       hole_bottom_left:
         what: mountinghole
         where:
-          ref: matrix_one_home
+          ref: matrix_one_bottom
           shift: [px, -py]
       hole_top_left:
         what: mountinghole
@@ -480,7 +480,7 @@ pcbs:
       hole_bottom_left:
         what: mountinghole
         where:
-          ref: mirror_matrix_one_home
+          ref: mirror_matrix_one_bottom
           shift: [px, -py]
       hole_top_left:
         what: mountinghole
