@@ -19,6 +19,8 @@ units:
 points:
   zones:
     matrix:
+      anchor:
+        shift: [100, -100]
       columns:
         one:
           key.column_net: P020
@@ -246,7 +248,7 @@ pcbs:
     footprints:
       choc_hotswap:
         what: choc
-        where: /^matrix_.*/
+        where: /^(matrix_|thumbs_).*/
         params:
           keycaps: true
           reverse: false
@@ -257,7 +259,7 @@ pcbs:
           rotate: 180
       diode_main:
         what: diode
-        where: /^matrix_(?!(?:six_top|six_home|three_home|one_num|one_bottom|four_top|four_mod)).*/
+        where: /^matrix_(?!(?:six_top|six_home|three_home|one_num|one_bottom|four_top|four_mod)).*|^thumbs_.*/
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
@@ -390,7 +392,7 @@ pcbs:
     footprints:
       choc_hotswap:
         what: choc
-        where: /^mirror_matrix_.*/
+        where: /^(mirror_matrix_|thumb).*/
         params:
           keycaps: true
           reverse: false
@@ -403,7 +405,7 @@ pcbs:
       # Main diodes
       diode_main:
         what: diode
-        where: /^mirror_matrix_(?!(?:four_home|two_bottom|two_num|five_bottom|five_num|six_num)).*/
+        where: /^(mirror_matrix_|thum)(?!(?:four_home|two_bottom|two_num|five_bottom|five_num|six_num)).*/
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
@@ -413,7 +415,7 @@ pcbs:
       # Move a diode so it doesn't conflict with mounting hole
       diode_mounting_hole_conflict:
         what: diode
-        where: /^mirror_matrix_(?:four_home|two_bottom|two_num|five_bottom|five_num)/
+        where: /^(mirror_matrix_|thum)(?:four_home|two_bottom|two_num|five_bottom|five_num)/
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
