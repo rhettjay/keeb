@@ -54,11 +54,11 @@ points:
       key.row_net: P115
       anchor:
         ref: matrix_six_home
-        shift: [56, -25]
+        shift: [50, -45]
       columns:
         layer:
           key.column_net: P009
-          key.splay: 75
+          key.splay: 40
           rows.home.width: 1.5kx
           rows.in.width: 1.5kx
           rows.home.shift: [-4.5, 0]
