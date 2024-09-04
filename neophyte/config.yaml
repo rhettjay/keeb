@@ -19,8 +19,6 @@ units:
 points:
   zones:
     matrix:
-      anchor:
-        shift: [100, -100]
       columns:
         one:
           key.column_net: P020
@@ -41,6 +39,14 @@ points:
           key.stagger: -5
           key.column_net: P017
           rows.bottom.skip: true
+        seven:
+          rows.bottom.skip: true
+          rows.home.skip: true
+          rows.top.skip: true
+          rows.mod.skip: true
+          rows.num.width: 1.5kx
+          key.splay: 90
+          key.shift: [15, -14.25]
       rows:
         bottom:
           row_net: P113
@@ -52,20 +58,30 @@ points:
           row_net: P029
         mod:
           row_net: P031
+    funct:
+      anchor:
+        ref: matrix_one_mod
+        shift: [-2px, -2.85px]
+      columns:
+        f1:
+        f2:
+      rows:
+        one:
+        two:
+        three:
+        four:
     thumbs:
       key.row_net: P115
       anchor:
         ref: matrix_six_home
         shift: [50, -45]
       columns:
-        layer:
+        space:
           key.column_net: P009
           key.splay: 40
           rows.home.width: 1.5kx
           rows.in.width: 1.5kx
-          rows.home.shift: [-4.5, 0]
-        space:
-          key.column_net: P010
+          rows.bottom.width: 1.5kx
       rows:
         bottom:
           row_net: P009
@@ -107,10 +123,6 @@ outlines:
           shift: [1.5px, .5px]
         - ref: thumbs_space_bottom
           shift: [1px + pad, 1py]
-        - ref: thumbs_layer_bottom
-          shift: [0.5px, 0.5py]
-        - ref: thumbs_layer_in
-          shift: [-0.5px, -0.5py]
         # Bottom
         - ref: matrix_five_bottom
           shift: [0.5px, -0.5py]
@@ -157,10 +169,6 @@ outlines:
           shift: [1.5px, .5px]
         - ref: mirror_thumbs_space_bottom
           shift: [1px + pad, 1py]
-        - ref: mirror_thumbs_layer_bottom
-          shift: [0.5px, 0.5py]
-        - ref: mirror_thumbs_layer_in
-          shift: [-0.5px, -0.5py]
         # Bottom
         - ref: mirror_matrix_five_bottom
           shift: [0.5px, -0.5py]
@@ -202,9 +210,9 @@ outlines:
         - ref: matrix_six_mod
           shift: [px + caseBorder, py + caseBorder]
         - ref: matrix_six_num
-          shift: [px + caseBorder , py + caseBorder]
+          shift: [px + caseBorder, py + caseBorder]
         - ref: matrix_six_home
-          shift: [px + caseBorder , py + caseBorder]
+          shift: [px + caseBorder, py + caseBorder]
         - ref: matrix_five_bottom
           shift: [2px + caseBorder, py + caseBorder]
         - ref: thumbs_space_bottom
@@ -213,13 +221,9 @@ outlines:
           shift: [1.05px + caseBorder, .75py + caseBorder]
         - ref: thumbs_space_bottom
           shift: [1.05px + caseBorder, -1.25py + caseBorder]
-        - ref: thumbs_layer_home
-          shift: [-.75px + caseBorder, -2py - caseBorder]
-        - ref: thumbs_layer_in
-          shift: [-1px + caseBorder, -2py - caseBorder]
         # Bottom
         - ref: matrix_five_bottom
-          shift: [px,-2py]
+          shift: [px, -2py]
         - ref: matrix_four_bottom
           shift: [px + caseBorder, -py - caseBorder]
         - ref: matrix_three_bottom
@@ -248,7 +252,7 @@ pcbs:
     footprints:
       choc_hotswap:
         what: choc
-        where: /^(matrix_|thumbs_).*/
+        where: /^matrix_.*/
         params:
           keycaps: true
           reverse: false
@@ -259,7 +263,7 @@ pcbs:
           rotate: 180
       diode_main:
         what: diode
-        where: /^matrix_(?!(?:six_top|six_home|three_home|one_num|one_bottom|four_top|four_mod)).*|^thumbs_.*/
+        where: /^matrix_(?!(?:six_top|six_home|three_home|one_num|one_bottom|four_top|four_mod)).*/
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
@@ -392,7 +396,7 @@ pcbs:
     footprints:
       choc_hotswap:
         what: choc
-        where: /^(mirror_matrix_|thumb).*/
+        where: /^mirror_matrix_.*/
         params:
           keycaps: true
           reverse: false
@@ -405,7 +409,7 @@ pcbs:
       # Main diodes
       diode_main:
         what: diode
-        where: /^(mirror_matrix_|thum)(?!(?:four_home|two_bottom|two_num|five_bottom|five_num|six_num)).*/
+        where: /^mirror_matrix_(?!(?:four_home|two_bottom|two_num|five_bottom|five_num|six_num)).*/
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
@@ -415,7 +419,7 @@ pcbs:
       # Move a diode so it doesn't conflict with mounting hole
       diode_mounting_hole_conflict:
         what: diode
-        where: /^(mirror_matrix_|thum)(?:four_home|two_bottom|two_num|five_bottom|five_num)/
+        where: /^mirror_matrix_(?:four_home|two_bottom|two_num|five_bottom|five_num)/
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
