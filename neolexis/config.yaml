@@ -8,7 +8,7 @@ units:
 
   padding: 4
   pad: 2
-  spacing: 0.75
+  spacing: 2
 
   controllerW: 18.5
   controllerH: 33.5
@@ -17,6 +17,9 @@ units:
   screwThreadRadius: 0.5
   screwPCBRadius: 4.0
 points:
+  key:
+    padding: cy + spacing
+    spread: cx + spacing
   zones:
     matrix:
       anchor:
@@ -55,12 +58,21 @@ points:
     thumbs:
       key.row_net: P115
       anchor:
+<<<<<<< Updated upstream
         ref: matrix_six_home
         shift: [50, -45]
       columns:
         layer:
           key.column_net: P009
           key.splay: 40
+=======
+        ref: matrix_six_bottom
+        shift: [55, -18]
+      columns:
+        layer:
+          key.column_net: P009
+          key.splay: 65
+>>>>>>> Stashed changes
           rows.home.width: 1.5kx
           rows.in.width: 1.5kx
           rows.home.shift: [-4.5, 0]
