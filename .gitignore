@@ -2,6 +2,10 @@ node_modules
 eg
 .env
 
+# References
+kc_neolexis
+references
+ 
 # Temporary files
 *.000
 *.bak
